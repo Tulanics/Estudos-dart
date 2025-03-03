@@ -3,7 +3,7 @@ void main() {
 
   //nome = "Tulani";
 
-  // if(nome.length > 0) {
+  // if(nome?.length > 0) {
   //   print(nome);
   // }else{
   //   print("Não tem nome");
