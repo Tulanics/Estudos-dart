@@ -5,3 +5,5 @@ Estudos de dart do  Curso Flutter completo/Atualizado 2025 Android/iOS/Windows
 - [Documentação tipos](https://dart.dev/language/built-in-types)
 - [Documentação null safety](https://dart.dev/null-safety/understanding-null-safety)
 - [Documentação de operadores](https://dart.dev/language/operators)
+- [Modificadores de classe](https://dart.dev/language/class-modifiers)
+- [Class modifiers referente](https://dart.dev/language/modifier-reference)
