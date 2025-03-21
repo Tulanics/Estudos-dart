@@ -7,3 +7,6 @@ Estudos de dart do  Curso Flutter completo/Atualizado 2025 Android/iOS/Windows
 - [Documentação de operadores](https://dart.dev/language/operators)
 - [Modificadores de classe](https://dart.dev/language/class-modifiers)
 - [Class modifiers referente](https://dart.dev/language/modifier-reference)
+- [pub dev pacotes do dart](https://pub.dev/)
+- [API usada no exemplo 59](https://jsonplaceholder.typicode.com/)
+- [Stream Flutter Periodic - referente ao arquivo 55](https://api.flutter.dev/flutter/dart-async/Stream/Stream.periodic.html)

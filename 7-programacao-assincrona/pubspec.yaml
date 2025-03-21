@@ -1,0 +1,8 @@
+name: meu_projeto
+description: Um projeto Dart para testes.
+version: 1.0.0
+environment:
+  sdk: '^3.7.0'
+
+dependencies:
+  http: ^1.3.0
