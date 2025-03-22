@@ -1,24 +1,23 @@
 import 'package:http/http.dart' as http; //precisa do arquivo pubspec.yaml na pasta com a dependência instalada
 import 'dart:convert';
 
-void main() {
+void main() async {
   var url = Uri.https('jsonplaceholder.typicode.com', '/users/1');//docmumentação da API está no readme
-  http.get(url)
-  .then((val) {
-    print(jsonDecode(val.body)['id']);
-  }).catchError((error){
-    print(error);
-    });
+  // http.get(url)
+  // .then((val) {
+  //   print(jsonDecode(val.body)['id']);
+  // }).catchError((error){
+  //   print(error);
+  //   });
 
 //gostei mais desse! é o melhor?
-// try{
-//   final res = await http.get(url);//qdo descomentar colocar async no main
-//   print(res.statusCode);//importante verificação!
-//   print(jsonDecode(res.body)['id']);
-
-// }catch(e){
-//   print("aconteceu um erro: $e");
-// }
+  try{
+    final res = await http.get(url);//qdo descomentar colocar async no main
+    print(res.statusCode);//importante verificação!
+    print(jsonDecode(res.body)['id']);
+  }catch(e){
+    print("aconteceu um erro: $e");
+  }
 
   
 
